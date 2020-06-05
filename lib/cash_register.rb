@@ -14,7 +14,7 @@ class CashRegister
       @items << item
     end
     @last_transaction = price
-    end
+  
   end
   
   def apply_discount
